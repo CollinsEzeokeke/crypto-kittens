@@ -3,6 +3,7 @@ import { KittenCanvas } from "./KittenCanvas";
 import { UserButton } from "@civic/auth/react";
 import { useUser } from '@civic/auth/react';
 import { Link } from 'react-router-dom';
+import { Header } from "./header";
 
 export const Hero = () => {
   const { user } = useUser();
@@ -12,11 +13,7 @@ export const Hero = () => {
       {/* Background Kitten Canvas */}
       <KittenCanvas />
 
-      <div className="absolute top-4 right-4 z-20">
-        <UserButton
-          className="bg-purple-primary hover:bg-purple-vivid text-white font-bold py-2 px-4 rounded-full"
-        />
-      </div>
+      <Header />
 
       {/* Centered Hero content */}
       {!user ? (<div className="absolute inset-0 flex items-center justify-center z-10">
