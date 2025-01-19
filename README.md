@@ -61,8 +61,8 @@ If you found this helpful, please give it a ⭐️!
 
 For any questions or concerns, please open an issue in the repository.
 
-[Fat-end developer(https://x.com/FattrickCollins)]
+[Fat-end developer](https://x.com/FattrickCollins)
 
 ---
 
-Made with ❤️ by [Fat-end developer(https://x.com/FattrickCollins)]
+Made with ❤️ by [Fat-end developer](https://x.com/FattrickCollins)
