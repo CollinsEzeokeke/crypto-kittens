@@ -5,7 +5,7 @@ const features = [
   {
     icon: Shield,
     title: "Secure & Reliable",
-    description: "Enterprise-grade security with advanced encryption protocols",
+    description: "Enterprise-grade security with advanced encryption protocols using Civic-Auth to ensure account and data protection",
   },
   {
     icon: Zap,
