@@ -33,14 +33,6 @@ export const Hero = () => {
           >
             Revolutionizing the future of decentralized finance with cutting-edge technology and adorable companions
           </motion.p>
-          <motion.button
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4 }}
-            className="bg-purple-primary hover:bg-purple-vivid text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105"
-          >
-            Get Started
-          </motion.button>
         </div>
       </div>)
         : (
