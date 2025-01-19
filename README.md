@@ -1,69 +1,68 @@
-# Welcome to your Lovable project
+# Quick Auth Integration Guide
 
-## Project info
+## 🚀 Simple Authentication Setup
 
-**URL**: https://lovable.dev/projects/4dd106c8-d9ba-4d93-a8bc-31f1c0e15de1
+This project uses Auth0 for seamless authentication implementation. Follow these simple steps to get started.
 
-## How can I edit this code?
+## Prerequisites
 
-There are several ways of editing your application.
+- Node.js (v14 or higher)
+- npm, yarn, or pnpm
+- A free Civic-Auth account
 
-**Use Lovable**
+## 🛠️ Setup Steps
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4dd106c8-d9ba-4d93-a8bc-31f1c0e15de1) and start prompting.
+### 1. Install Dependencies
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Using npm
+npm install
 
-**Use your preferred IDE**
+# Using yarn
+yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Using pnpm
+pnpm install
 ```
 
-**Edit a file directly in GitHub**
+### 2. Environment Configuration
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Create a `.env` file in the root directory of your project and add:
 
-**Use GitHub Codespaces**
+```env
+VITE_CLIENT_ID=your_auth0_client_id
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 3. Where to Get Your Client ID
 
-## What technologies are used for this project?
+1. Log in to your [Civic-Auth Dashboard](https://auth.civic.com/dashboard)
+2. Create a new application or select an existing one
+3. Go to Application Settings
+4. Copy your Client ID
 
-This project is built with .
+## 🔐 Authentication Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Social login providers (Google, GitHub, etc.)
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/4dd106c8-d9ba-4d93-a8bc-31f1c0e15de1) and click on Share -> Publish.
+## 🤝 Contributing
 
-## I want to use a custom domain - is that possible?
+Feel free to contribute to this project by submitting issues or pull requests.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⭐ Support
+
+If you found this helpful, please give it a ⭐️!
+
+## 📫 Contact
+
+For any questions or concerns, please open an issue in the repository.
+
+[Fat-end developer](https://x.com/FattrickCollins)
+
+---
+
+Made with ❤️ by [Fat-end developer](https://x.com/FattrickCollins)
